@@ -424,3 +424,4 @@ C:\Users\gbube\Documents\UserAuthAndOrg\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\gbube\Documents\UserAuthAndOrg\bin\Debug\net8.0\xunit.core.dll
 C:\Users\gbube\Documents\UserAuthAndOrg\bin\Debug\net8.0\xunit.execution.dotnet.dll
 C:\Users\gbube\Documents\UserAuthAndOrg\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Users\gbube\Documents\UserAuthAndOrg\obj\Debug\net8.0\UserAuthAndOrg.sourcelink.json

@@ -11,7 +11,7 @@ using UserAuthAndOrg.Data;
 namespace UserAuthAndOrg.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240707160244_InitialMigration")]
+    [Migration("20240708102209_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
