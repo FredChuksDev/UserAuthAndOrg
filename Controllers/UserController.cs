@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using UserAuthAndOrg.Services;
 using UserAuthAndOrg.Services.Interfaces;
 
 namespace UserAuthAndOrg.Controllers
@@ -29,18 +28,7 @@ namespace UserAuthAndOrg.Controllers
             try
             {
                 var currentUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-                if (currentUserId == null)
-                {
-                    return Unauthorized(new
-                    {
-                        status = "Unauthorized",
-                        message = "Authentication required",
-                        statusCode = 401
-                    });
-                }
-
                 var user = new Models.User();
-
                 if (id == "me")
                 {
                     user = await userService.GetUserByIdAsync(currentUserId);

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\dtos\\organisationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:dtos\\organisationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwC0AAAA2AAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAcwH0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T10:44:43.094Z",
+              "WhenOpened": "2024-07-08T11:26:17.188Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:32:41.974Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganisationController.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\OrganisationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrganisationController.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\OrganisationController.cs",
+              "RelativeToolTip": "Controllers\\OrganisationController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwGAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:26:20.052Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -152,15 +192,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAABUAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwC4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T10:54:40.167Z",
+              "WhenOpened": "2024-07-08T11:36:40.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganisationDto.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\DTOs\\OrganisationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrganisationDto.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\DTOs\\OrganisationDto.cs",
+              "RelativeToolTip": "DTOs\\OrganisationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T11:29:30.02Z",
               "EditorCaption": ""
             }
           ]
