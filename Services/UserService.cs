@@ -29,7 +29,8 @@ namespace UserAuthAndOrg.Services
 
             var organisation = new Organisation
             {
-                Name = $"{user.FirstName}'s Organisation"
+                Name = $"{user.FirstName}'s Organisation",
+                Description = $"{user.FirstName}'s Organisation default description"
             };
 
             var userOrganisation = new UserOrganisation

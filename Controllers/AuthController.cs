@@ -30,16 +30,6 @@ namespace UserAuthAndOrg.Controllers
                 });
             }
 
-            if (!ModelState.IsValid)
-            {
-                var errors = ModelState.Values
-                    .SelectMany(v => v.Errors)
-                    .Select(e => new { field = e.Exception?.TargetSite?.Name ?? "Unknown", message = e.ErrorMessage })
-                    .ToList();
-
-                return UnprocessableEntity(new { errors });
-            }
-
             var user = new User
             {
                 FirstName = dto.FirstName,
@@ -90,43 +80,42 @@ namespace UserAuthAndOrg.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(new
+                return UnprocessableEntity(new
                 {
-                    status = "Bad request",
-                    message = "Authentication failed",
-                    statusCode = 401
+                    errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => new { field = e.Exception?.TargetSite?.Name ?? "", message = e.ErrorMessage })
                 });
             }
-
-            var user = await userService.AuthenticateAsync(dto.Email, dto.Password);
-            if (user == null)
+            try
             {
-                return BadRequest(new
+                var user = await userService.AuthenticateAsync(dto.Email, dto.Password);
+                var token = userService.GenerateJwtToken(user);
+                return Ok(new
                 {
-                    status = "Bad request",
-                    message = "Authentication failed",
-                    statusCode = 401
-                });
-            }
-
-            var token = userService.GenerateJwtToken(user);
-            return Ok(new
-            {
-                status = "success",
-                message = "Login successful",
-                data = new
-                {
-                    accessToken = token.Result,
-                    user = new
+                    status = "success",
+                    message = "Login successful",
+                    data = new
                     {
-                        userId = user.UserId,
-                        firstName = user.FirstName,
-                        lastName = user.LastName,
-                        email = user.Email,
-                        phone = user.Phone
+                        accessToken = token.Result,
+                        user = new
+                        {
+                            userId = user.UserId,
+                            firstName = user.FirstName,
+                            lastName = user.LastName,
+                            email = user.Email,
+                            phone = user.Phone
+                        }
                     }
-                }
-            });
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    status = "Bad request",
+                    message = "Authentication failed",
+                    statusCode = 401
+                });
+            }
         }
     }
 }

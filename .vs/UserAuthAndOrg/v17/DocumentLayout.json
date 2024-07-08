@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\migrations\\20240708102209_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:migrations\\20240708102209_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|c:\\users\\gbube\\documents\\userauthandorg\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927B9318-837E-4BDC-9794-7A1640B61E98}|UserAuthAndOrg.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 30,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T10:44:43.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -143,40 +153,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T10:24:48.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240708102209_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Migrations\\20240708102209_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240708102209_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\Migrations\\20240708102209_InitialMigration.cs",
-              "RelativeToolTip": "Migrations\\20240708102209_InitialMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T10:22:09.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\gbube\\Documents\\UserAuthAndOrg\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-08T10:13:46.916Z",
+              "WhenOpened": "2024-07-08T10:54:40.167Z",
               "EditorCaption": ""
             }
           ]
